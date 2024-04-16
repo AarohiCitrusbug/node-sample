@@ -1,4 +1,4 @@
-# PayStreams-api-node
+# Tests-api-node
 
 > RESTful api with Domain Driven Design
 
@@ -37,7 +37,7 @@ $ npm install -g sequelize-cli  # CLI for Sequelize
 ### Database Setup (Development)
 
     1. Install [Sql-server](https://www.microsoft.com/en-in/sql-server/sql-server-downloads).
-    2. Create an empty database named - `paystrem_development` and `paystrem__test` for test enviroment.
+    2. Create an empty database named - `test_development` and `test` for test enviroment.
     3. Rename the .env and populate it with the correct credentials and settings of your sql-server databases
 
 **Note** 3. Run following commands only for development.
@@ -66,10 +66,10 @@ $ npm install -g sequelize-cli  # CLI for Sequelize
 
 ## CLI Tools
 
-- `yarn start - start the Paystreme for production
-- `yarn start:dev - start the Paystreme for locally/development
-- `yarn reset-db:dev` - reset db in the Paystreme for locally/development with migrations and seeders.
-- `yarn reset-db:test - reset db in the Paystreme for test
+- `yarn start - start the test for production
+- `yarn start:dev - start the test for locally/development
+- `yarn reset-db:dev` - reset db in the test for locally/development with migrations and seeders.
+- `yarn reset-db:test - reset db in the test for test
 - `yarn test - run Unit tests
 - `yarn migrate` - apply db changes using migration script
 - `yarn add <package-name>` - add a new package to package.json

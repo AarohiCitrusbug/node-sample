@@ -4,18 +4,18 @@ const Status = require('http-status')
 const { Router } = require('express')
 
 /**
- * Returns a router for the Paystrem API.
+ * Returns a router for the test API.
  *
- * @returns {Router} The router for the Paystrem API.
+ * @returns {Router} The router for the test API.
  */
 module.exports = () => {
   const router = Router()
 
   const swaggerDefinition = {
     info: {
-      title: 'Paystrem API',
+      title: 'test API',
       version: '1.0.0',
-      description: 'Available REST Endpoints of Paystrem RESTful API'
+      description: 'Available REST Endpoints of test RESTful API'
     },
     // host: `${process.env.API_SWAGGER}:${process.env.PORT}/api/${process.env.APP_VERSION}`,
     host: `http://localhost:3000/api/v1`,

@@ -1,5 +1,5 @@
 {
-  "name": "paystream",
+  "name": "Test",
   "version": "1.0.0",
   "description": "> RESTful api with Domain Driven Design",
   "main": "index.js",
@@ -30,7 +30,7 @@
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release"
   },
-  "author": "Paystreme",
+  "author": "test",
   "license": "ISC",
   "dependencies": {
     "@azure/storage-blob": "^12.13.0",
